@@ -9,9 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="205467c4-0ed4-4529-9fe8-0007f30cb713" name="Changes" comment="2. Start Hello Servlet">
+    <list default="true" id="205467c4-0ed4-4529-9fe8-0007f30cb713" name="Changes" comment="3. Start Hello Servlet">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/khmelov/lesson13/EditUserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/edit-user.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/list-user.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/khmelov/lesson13/IndexServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/khmelov/lesson13/IndexServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/khmelov/lesson13/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/khmelov/lesson13/ListUserServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +27,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -33,18 +39,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "ruslstepanson753"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ruslstepanson753&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/ruslstepanson753/L13-JSP.git",
-    "accountId": "baaef218-c24d-4ace-bac6-7e4ec2086604"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ruslstepanson753/L13-JSP.git&quot;,
+    &quot;accountId&quot;: &quot;baaef218-c24d-4ace-bac6-7e4ec2086604&quot;
   }
-}]]></component>
+}</component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -59,9 +65,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2pCe389fysX0fV1uQZbBNsGwA63" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -82,18 +88,26 @@
     "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/projects/ProjectGorillaz/src/main/webapp/WEB-INF",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\projects\ProjectGorillaz\src\main\webapp\WEB-INF" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\projects\ProjectGorillaz\src\main\webapp\WEB-INF" />
       <recent name="C:\projects\ProjectGorillaz\src\main\webapp" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.javarush.khmelov.lesson13.service" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 10.1.31">
@@ -101,6 +115,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Tomcat 10.1.31" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.31" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER" value="false" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
@@ -216,7 +231,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732274282483</updated>
-      <workItem from="1732274283486" duration="3942000" />
+      <workItem from="1732274283486" duration="4273000" />
+      <workItem from="1732281138023" duration="2852000" />
+      <workItem from="1732284284341" duration="432000" />
+      <workItem from="1732284731607" duration="371000" />
+      <workItem from="1732285117925" duration="7682000" />
     </task>
     <task id="LOCAL-00001" summary="1. Start Hello Servlet">
       <option name="closed" value="true" />
@@ -242,7 +261,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732279861321</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="3. Start Hello Servlet">
+      <option name="closed" value="true" />
+      <created>1732280799759</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1732280799759</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,6 +289,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1. Start Hello Servlet" />
     <MESSAGE value="2. Start Hello Servlet" />
-    <option name="LAST_COMMIT_MESSAGE" value="2. Start Hello Servlet" />
+    <MESSAGE value="3. Start Hello Servlet" />
+    <option name="LAST_COMMIT_MESSAGE" value="3. Start Hello Servlet" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/javarush/khmelov/lesson13/EditUserServlet.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
