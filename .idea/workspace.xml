@@ -9,14 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="205467c4-0ed4-4529-9fe8-0007f30cb713" name="Changes" comment="3. Start Hello Servlet">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/khmelov/lesson13/EditUserServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/edit-user.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/list-user.jsp" afterDir="false" />
+    <list default="true" id="205467c4-0ed4-4529-9fe8-0007f30cb713" name="Changes" comment="4. lesson 13 end">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/khmelov/lesson13/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/khmelov/lesson13/ListUserServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -235,7 +229,7 @@
       <workItem from="1732281138023" duration="2852000" />
       <workItem from="1732284284341" duration="432000" />
       <workItem from="1732284731607" duration="371000" />
-      <workItem from="1732285117925" duration="7682000" />
+      <workItem from="1732285117925" duration="8491000" />
     </task>
     <task id="LOCAL-00001" summary="1. Start Hello Servlet">
       <option name="closed" value="true" />
@@ -269,7 +263,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732280799759</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="4. lesson 13 end">
+      <option name="closed" value="true" />
+      <created>1732305083524</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1732305083524</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,7 +292,8 @@
     <MESSAGE value="1. Start Hello Servlet" />
     <MESSAGE value="2. Start Hello Servlet" />
     <MESSAGE value="3. Start Hello Servlet" />
-    <option name="LAST_COMMIT_MESSAGE" value="3. Start Hello Servlet" />
+    <MESSAGE value="4. lesson 13 end" />
+    <option name="LAST_COMMIT_MESSAGE" value="4. lesson 13 end" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
